@@ -5,15 +5,19 @@
 }
 
 #container {
-    width: 60%;
+
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    /* width: 60%;
     height: 100vh;
     margin: 0 auto;
     text-align: center;
     padding-top: 50px;
-    font-size: 2rem;
+    font-size: 2rem; */
     color: rgba(41, 8, 36, 0.966);
-    /* box-shadow: 25px 0 20px -20px rgba(173, 88, 166, 0.45), -25px 0 20px -20px rgba(51, 27, 48, 0.45);
-} */
+    /* box-shadow: 25px 0 20px -20px rgba(173, 88, 166, 0.45), -25px 0 20px -20px rgba(51, 27, 48, 0.45); */
+} 
 
 input {
     margin-top: 20px;
@@ -52,10 +56,3 @@ button:hover {
     margin-bottom: 15px;
 }
 
-#images { display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-
-
-}
