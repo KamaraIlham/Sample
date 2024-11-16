@@ -14,8 +14,8 @@ document.getElementById('btn').addEventListener('click' , () => {
 
     for(let i = 0; i < numberDice; i++) {
         const value = Math.floor (Math.random() * 6) + 1
-        console.log(value)
-        imagess.push(`<img src="img/${value}.png ` )
+        values.push(value)
+        imagess.push(`<img src="img/${value}.png"> ` )
 
 
     }
